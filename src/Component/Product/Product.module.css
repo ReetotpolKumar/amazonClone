@@ -1,0 +1,54 @@
+.productWrap
+{
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto auto auto;
+    margin-top: -300px;
+
+}
+
+.productWrap .product
+{
+    background-color:white;
+    padding: 10px;
+    margin: 0px 5%;
+    width: 350px;
+    height: 100%;
+    
+    box-shadow: 0px,0px,10px rgb(0 0 0/ 37%);
+    margin-bottom: 30px;
+    position: relative;
+}
+.fourImage 
+{
+    display: grid;
+   
+    overflow: hidden;
+    
+   
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    
+   
+    
+   
+
+}
+.fourImage  .imga {
+    
+   
+    margin-bottom: 5%;
+    
+   
+    
+}
+
+.product h2{
+    padding-bottom: 2%;
+}
+
+.product .imgSingle img
+{
+    width: 100%;
+    height: 110%;
+}
